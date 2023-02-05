@@ -1,0 +1,181 @@
+body{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.bigdiv{
+    height: 35rem;
+   
+    width: 30rem;
+
+    background-image: radial-gradient(circle,white,lightgray);
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50% );
+}
+.App{
+ 
+   top: 50%;
+   left:50%;
+   position: absolute;
+   transform: translate(-50%, -50% );
+    height: 30rem;
+    width: 20rem;
+   
+}
+.keypad{
+    margin: 0rem;
+    display: flex;
+flex-direction: column;
+}
+input{
+    height: 4rem;
+    width: 19.54rem;
+    background-color: black;
+    color: white;
+}
+.div1{
+   
+    width: 20rem;
+    height: 5rem;
+}
+
+.div2{
+  
+    width: 20rem;
+    height: 5rem;
+}
+.div3{
+    
+    width: 20rem;
+    height: 5rem;
+}
+.div4{
+
+    width: 20rem;
+    height: 5rem;
+  
+}
+.div5{
+  
+    width: 20rem;
+    height: 5rem;  
+}
+
+.eight{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.nine{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}.seven{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.ten{
+    height: 5rem;
+    width: 5rem;
+    background-color: orange;
+    border: none;
+    border:0.5px solid gray;
+    font-size: large;
+    color: white;
+}
+.four{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.six{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.five{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.multipyly{
+    height: 5rem;
+    width: 5rem;
+    background-color: orange;
+    border:0.5px solid gray;
+    font-size: large;
+    color: white;
+}
+.one{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.two{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.subtract{
+    height: 5rem;
+    width: 5rem;
+    background-color: orange;
+    border:0.5px solid gray;
+    font-size: large;
+    color: white;
+}
+.zero{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.dot{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+  
+}
+.equal{
+    height: 5rem;
+    width: 5rem;
+     color:gray;
+    font-size: larger;
+}
+.sum{
+    height: 5rem;
+    width: 5rem;
+    background-color: orange;
+    font-size: large;
+    color: white;
+    border:0.5px solid gray;
+}
+.three{
+    height: 5rem;
+    width: 5rem;
+    color:gray;
+    font-size: larger;
+}
+.clear{
+    height: 5rem;
+    width: 20rem;
+    background-color: lightgray;
+    border: 1px solid gray;
+    color:gray;
+    font-size: larger;
+}
